@@ -18,11 +18,48 @@ body {
     width: 100%;
   }
   
-  .card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  .titelbild {
+    width: 100%; /* Bild geht über die gesamte Breite */
+    height: 300px; /* Höhe des Titelbilds */
+    object-fit: cover; /* Bild wird zugeschnitten, wenn es zu groß ist */
+    border-radius: 0;
   }
+
+  .profil-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Abstand zwischen Bild und Text */
+    margin: 20px;
+  }
+
+  .profilbild-wrapper {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .profilbild {
+    border: 5px solid #fff; /* Weißer Rand für einen schönen Effekt */
+    width: 80px;
+    height: 80px;
+    object-position: center 15%; /* verschiebt das Bild leicht nach unten */
+    object-fit: cover;
+    border-radius: 8px; /* leicht abgerundet für Stil – kannst du auch auf 0 setzen */
+    transform: scale(1.2);
+  }
+
+  .profil-text h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .profil-text p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+
+  
   
   .card h2 {
     margin: 10px 0;

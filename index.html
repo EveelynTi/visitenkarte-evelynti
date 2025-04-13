@@ -3,23 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <title>Digitale Visitenkarte</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="card">
-    <img src="dein-foto.jpg" alt="Profilbild" class="profile-img">
-    <h2>Max Mustermann</h2>
-    <p>Webentwickler</p>
-    <a href="tel:+123456789">Telefon: +123456789</a>
-    <br>
-    <a href="mailto:max.mustermann@email.com">E-Mail: max.mustermann@email.com</a>
-    <br>
-    <a href="https://www.deine-website.com">Website: deine-website.com</a>
-    <br>
-    <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Max%20Mustermann%0ATEL:123456789%0AEMAIL:max.mustermann@email.com%0AEND:VCARD">
+    <header>
+      <img src="images/titelbild.png" alt="Titelbild" class="titelbild">
+    </header>
+    <div class="profil-container">
+      <div class="profilbild-wrapper">
+      <img src="images/profilbild.jpg" alt="Profilbild" class="profilbild">
+      </div>
+      <div class="profil-text">
+        <h2>Evelyn Tissen</h2>
+        <p>Senior Consultant</p>
+      </div>
+    </div>
+    <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Evelyn%20Tissen%0ATEL:+491721651790%0AEMAIL:e_tissen@taures.de%0AEND:VCARD">
       Kontakt speichern
     </a>
+    <br>
+    <a href="tel:+491721651790">Telefon: +49 1721651790</a>
+    <br>
+    <a href="mailto:e_tissen@taures.de">E-Mail: e_tissen@taures.de</a>
+    <br>
+    <a href="https://www.deine-website.com">Anmeldung zum Vortrag für werdende Eltern</a>
+    <br>
+    <a href="https://www.deine-website.com">Anmeldung zum Investmentvortrag</a>
+    
     <div id="qrcode"></div>
   </div>
 
