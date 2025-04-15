@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    /*text-align: center;*/
     max-width: 400px;
     width: 100%;
   }
@@ -62,8 +62,8 @@ body {
 
   .contact-link {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    align-items: left;
+    gap: 12px;
     text-decoration: none;
   }
   
@@ -74,12 +74,24 @@ body {
     flex-wrap: wrap;
   }
   
+  .button-container2 {
+    /*margin-top: 20px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;*/
+
+    display: flex;
+    align-items: center; /* sorgt dafür, dass das Icon und der Text vertikal ausgerichtet sind */
+    width: 100%;
+  }
+
   /* KONTAKT SPEICHERN BUTTON*/
 
   .button1 {
     display: inline-flex;
-    -webkit-box-align: center;
+    /* -webkit-box-align: center; */
     align-items: center;
+    text-align: center;
     -webkit-box-pack: center;
     justify-content: center;
     position: relative;
@@ -139,13 +151,14 @@ body {
   .button2 {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     gap: 12px;
     background-color: #22337b;
     color: #ffffff;
     padding: 12px 28px;
     border-radius: 30px; /* hier liegt die Magie für runde Seiten */
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     width: 100%;
@@ -161,7 +174,6 @@ body {
   .button2 .icon-bright {
       display: flex;
       align-items: center;
-      justify-content: center;
       color: #ffffff;
     }
 
@@ -178,6 +190,9 @@ body {
     width: 26px;
     height: 26px;
     color: rgb(24, 26, 90);
+    /*display: flex;*/
+    /*justify-content: flex-start;  richtet das Icon links aus */
+    /*align-items: centlefter;  zentriert das Icon vertikal */
   }
 
   
