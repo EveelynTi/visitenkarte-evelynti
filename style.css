@@ -62,9 +62,11 @@ body {
 
   .contact-link {
     display: flex;
-    align-items: left;
-    gap: 12px;
+    align-items: end;
+    gap: 27px;
+    font-size: 0.9em;
     text-decoration: none;
+    vertical-align: middle;
   }
   
   .button-container {
@@ -88,10 +90,11 @@ body {
   /* KONTAKT SPEICHERN BUTTON*/
 
   .button1 {
-    display: inline-flex;
+    /*display: inline-flex; */
     /* -webkit-box-align: center; */
     align-items: center;
     text-align: center;
+    gap: 20px;
     -webkit-box-pack: center;
     justify-content: center;
     position: relative;
@@ -137,6 +140,7 @@ body {
   .button1 svg {
       width: 20px;
       height: 20px;
+      vertical-align: middle;
     }
 
     .button1 text {
@@ -180,6 +184,7 @@ body {
   .button2 svg {
       width: 20px;
       height: 20px;
+      vertical-align: middle;
     }
   
     /*ENDE LINKS BUTTON*/
@@ -190,6 +195,7 @@ body {
     width: 26px;
     height: 26px;
     color: rgb(24, 26, 90);
+    vertical-align: middle;
     /*display: flex;*/
     /*justify-content: flex-start;  richtet das Icon links aus */
     /*align-items: centlefter;  zentriert das Icon vertikal */
@@ -226,7 +232,7 @@ body {
   }
   
   .card a {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 10px 0;
     /*color: #007BFF;*/
     text-decoration: none;
