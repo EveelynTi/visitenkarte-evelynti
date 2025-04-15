@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     background-color: #f4f4f4;
+    font-size: 1em
   }
   
   .card {
@@ -59,21 +60,175 @@ body {
     color: #666;
   }
 
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
   
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  /* KONTAKT SPEICHERN BUTTON*/
+
+  .button1 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.75;
+    min-width: 64px;
+    color: #ffffff;
+    background-color: rgb(24, 26, 90);
+    box-shadow: rgba(17, 19, 86, 0.12) 0px 1px 3px 0px, rgba(17, 19, 86, 0.08) 0px 1px 1px 0px, rgba(17, 19, 86, 0.1) 0px 2px 1px -1px;
+    text-transform: none;
+    width: 100%;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button1:hover {
+      background-color: #004f99;
+    }
+
+  .button1 .icon-bright {
+      width: 16px;
+      height: 16px;
+      color: #ffffff;
+    }
+
+  .button1 svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .button1 text {
+      color: #ffffff;
+    }
+
+  /*ENDE KONTAKT SPEICHERN BUTTON*/
+
+
+
+  /* LINKS BUTTON*/
+  .button2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #22337b;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 30px; /* hier liegt die Magie für runde Seiten */
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 100%;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .button2:hover {
+    background-color: #1a2961; /* etwas dunkler beim Hover */
+  }
+
+  .button2 .icon-bright {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+    }
+
+  .button2 svg {
+      width: 20px;
+      height: 20px;
+    }
+  
+    /*ENDE LINKS BUTTON*/
+
+
+
+  .icon {
+    width: 26px;
+    height: 26px;
+    color: rgb(24, 26, 90);
+  }
+
+  
+  
+
+  .info-box {
+    background-color: rgba(255, 255, 255, 0.1); /* transparenter Hintergrund */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* optional: leicht sichtbarer Rahmen */
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 24px;
+    backdrop-filter: blur(4px); /* leichter Glas-Effekt */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /*color: rgb(85, 89, 94);*/
+
+  }
+  
+  .info-box h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 14px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 6px;
+    text-align: left;
+  }
   
   .card h2 {
     margin: 10px 0;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .card a {
     display: inline-block;
     margin: 10px 0;
-    color: #007BFF;
+    /*color: #007BFF;*/
     text-decoration: none;
   }
   
   #qrcode {
     margin-top: 20px;
   }
+
+  /* Farbe und Text von Links */
+  a {
+    color: inherit !important; /* übernimmt die Textfarbe vom Eltern-Element */
+   text-decoration: none !important; /* entfernt die Unterstreichung */
+  } 
+  
+  a:hover {
+    text-decoration: underline; /* optional: Unterstrich beim Hover */
+  }
+  
   
