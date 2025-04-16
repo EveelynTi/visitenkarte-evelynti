@@ -39,8 +39,7 @@ body {
     /*border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     /*text-align: center;*/
-    /*width: 100%;*/
-
+    /**/
     background-color: white;
     max-width: 400px;
     margin: -20px auto 40px; /* Ins Bild reinragen */
@@ -286,14 +285,15 @@ body {
     text-decoration: underline; /* optional: Unterstrich beim Hover */
   }
   
-  @media (max-width: 768px) {
-    .hero {
+  @media (max-width: 768px) { 
+    /*.hero {*/
       /*width: 95%; /* Auf kleinen Geräten ein bisschen mehr Platz */
       /*margin-left: -5px; /* Weniger Überschuss */
       /*margin-right: -5px;*/
-    }
+   /* }*/
   
-    .card {
+    .card { 
       /*margin: -40px auto 1rem; /* Leicht angepasst für Mobilgeräte */
+      width: 80%;
     }
   }
