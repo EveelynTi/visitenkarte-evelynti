@@ -12,7 +12,7 @@ body {
 
   .hero {
     width: 100%;
-    max-width: 400px;
+    max-width: 460px;
     height: 35vh; /* 35% der Viewport-Höhe */
     margin: 0 auto;
     overflow: hidden;
@@ -288,12 +288,12 @@ body {
   
   @media (max-width: 768px) {
     .hero {
-      width: 95%; /* Auf kleinen Geräten ein bisschen mehr Platz */
-      margin-left: -5px; /* Weniger Überschuss */
-      margin-right: -5px;
+      /*width: 95%; /* Auf kleinen Geräten ein bisschen mehr Platz */
+      /*margin-left: -5px; /* Weniger Überschuss */
+      /*margin-right: -5px;*/
     }
   
     .card {
-      margin: -40px auto 1rem; /* Leicht angepasst für Mobilgeräte */
+      /*margin: -40px auto 1rem; /* Leicht angepasst für Mobilgeräte */
     }
   }
