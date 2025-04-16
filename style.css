@@ -69,17 +69,18 @@ body {
   }
 
   .profilbild-wrapper {
-    width: 80px;
-    height: 80px;
+    width: 105px;
+    height: 105px;
     overflow: hidden;
     border-radius: 8px;
     margin: -100px auto 40px; /* Ins Bild reinragen */
+    border: 5px solid #fff; /* Weißer Rand für einen schönen Effekt */
   }
   
   .profilbild {
-    border: 5px solid #fff; /* Weißer Rand für einen schönen Effekt */
-    width: 90px;
-    height: 90px;
+    
+    width: 100px;
+    height: 100px;
     object-position: center 15%; /* verschiebt das Bild leicht nach unten */
     object-fit: cover;
     border-radius: 8px; /* leicht abgerundet für Stil – kannst du auch auf 0 setzen */
